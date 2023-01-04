@@ -943,8 +943,9 @@ console.log(flip(0)); // 1
 ```js
 
 function flip(y){
-    let x = y - 1;
-    return (Math.abs(x))
+    // let x = y - 1;
+    // return (Math.abs(x))
+    return Number(!y)
 };
 
 ```  
